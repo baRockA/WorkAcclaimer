@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pause_category"
+        android:title="Pause Preferences" >
+        <EditTextPreference android:key="pauseTime" 
+            android:title="@string/pausetime"
+            android:summary="@string/pausetimedescr"
+            android:dialogTitle="@string/pausetime"
+            android:dialogMessage="@string/pausetimedescr"
+            android:defaultValue="5"
+            android:inputType="number"/>
+        
+       <RingtonePreference android:key="pausetone"
+           android:title="@string/pausetone"
+           android:showDefault="true"
+      	   android:showSilent="true"
+           android:summary="@string/pausetonedescr"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">WorkAcclaimer</string>
+    <string name="start">Start Working</string>
+    <string name="stop">Stop Working</string>
+    <string name="pause">Pause</string>
+    <string name="description">Description</string>
+    <string name="resume">Resume</string>
+    <string name="title">Title</string>
+    <string name="joblist">Job List</string>
+    <string name="no_title">Please set a title for this job first!</string>
+    <string name="deletejob">Delete Job</string>
+    <string name="datelabel">Date: </string>
+    <string name="timelabel">Time: </string>
+    <string name="pauselabel">Pause Time: </string>
+    <string name="save">Save</string>
+    <string name="notsaved">Unable to save changes!</string>
+    <string name="pref">Preferences</string>
+    <string name="pausetime">Pause Time</string>
+    <string name="pausetimedescr">Define the duration of a pause.</string>
+    <string name="pausetone">Resume Ringtone</string>
+    <string name="pausetonedescr">Choose a tone that will show you the end of a pause.</string>
+    <string name="group">Work Group</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+
+</resources>
